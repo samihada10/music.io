@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/gradient-mint-background_23-2150282268.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+}
+
+.player {
+  height: 280px;
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  border: 6px solid rgb(30, 71, 80);
+  background-color: rgb(58, 109, 120);
+}
+
+.bar {
+  height: 50px;
+  width: 100%;
+  border-bottom: 6px solid rgb(30, 71, 80);
+  text-align: center;
+  padding-top: 5px;
+  color: rgb(233, 233, 233);
+  font-family: "Jura" sans-serif;
+}
+
+.content {
+  height: 180px;
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+}
+
+.img1 {
+  height: 180px;
+  width: 180px;
+  border: 6px solid rgb(30, 71, 80);
+}
+
+.display {
+  height: 170px;
+  width: 360px;
+  border: 6px solid rgb(30, 71, 80);
+  margin-top: 25px;
+  margin-left: 10px;
+  float: left;
+  background-color: rgb(30, 71, 80);
+}
+
+.song-artist {
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  margin-top: 3%;
+}
+.buttons {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.playlist {
+  width: 30%;
+  height: auto;
+  border: 6px solid rgb(30, 71, 80);
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(58, 109, 120);
+  color: aliceblue;
+}
+
+.playlist-bar {
+  color: white;
+  border-bottom: 6px solid rgb(30, 71, 80);
+  padding-top: 5px;
+  font-family: "Jura" sans-serif;
+}
+
+.playlist-song-title {
+  width: 140px;
+  color: aliceblue;
+}
+
+.playlist-song-artist {
+  width: 40px;
+  color: aliceblue;
+}
+
+.playlist-songs {
+  width: 430px;
+  height: 100%;
+  background-color: rgb(58, 109, 120);
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 8px 9px;
+  visibility: visible;
+  justify-content: start;
+  list-style: none;
+  text-align: center;
+  margin-left: 10%;
+  align-items: center;
+}
+
+.playlist-song-title {
+  font-size: 0.85rem;
+  width: 241px;
+  text-align: left;
+  color: aliceblue;
+}
+
+.playlist-song-artist {
+  font-size: 0.725rem;
+  width: 80px;
+}
+
+.playlist-song-duration {
+  font-size: 0.725rem;
+  margin: auto;
+  width: 30px;
+}
+
+.playlist-song-delete {
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.playlist-song {
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.playlist-song-info {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 7px;
+  padding: 5px 0;
+  font-family: var(--font-family);
+  border-bottom: 2px solid rgb(30, 71, 80);
+}
+
+button:hover {
+  fill: white;
+  /* background-color: ; */
+}
